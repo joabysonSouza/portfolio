@@ -1,0 +1,87 @@
+.perfil{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+
+}
+.sobre{
+    width: 100%;
+    min-height: 85vh;
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+}
+.bio{
+    display: flex; 
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem
+} 
+
+    .bio span{
+        color: var(--red);
+        font-weight: bold;
+    }
+    .bio strong{
+        color: var(--segundary);
+        font-weight: bolder;
+    }
+    
+
+.text h2, p{
+    margin-bottom: 1rem;
+}
+.text h2{
+    font-size: 30px;
+}
+.techs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.techs h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.icones{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icones img{
+    width: 50px;
+}
+.bs_icon{
+    color: var(--segundary);
+}
+
+
+@media (max-width:1400px){
+    .bio{
+        flex-direction: column;
+        margin: auto;
+        padding-inline: 50px;
+    }
+    .text{
+        margin-left: 40px;
+        padding-inline: 50px;
+    }
+
+}
+@media (max-width:785px){
+    .bio{
+        flex-direction: column;
+        padding-inline: 50px;
+    }
+    .icones{
+        width: 100%;
+        padding: 50px;
+        
+    }
+}

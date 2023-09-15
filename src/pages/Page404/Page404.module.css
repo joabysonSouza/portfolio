@@ -1,0 +1,21 @@
+.titulo2{
+    padding-top: 2rem;
+    font-weight: bold;
+}
+.textoV{
+    color: var(--red);
+    font-size: 300px;
+    font-weight: bold;
+}
+.textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textoG{
+    font-size: 30px;
+    color: var(--red);
+}
+
