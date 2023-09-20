@@ -14,7 +14,7 @@ function Sobre() {
     <section >
        <div className={Styles.sobre}>
       <div className={Styles.bio}>
-        <img src={Perfil} alt="perfil" className={Styles.perfil}  />
+     
         
         <div className={Styles.text}>
         <h2>Sobre</h2>
